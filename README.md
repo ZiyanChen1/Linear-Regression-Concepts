@@ -13,7 +13,6 @@ How to compute and interpret correlations with **numeric and categorical data**,
 ├── correlation_mini_example.ipynb    # Task 1 walkthrough notebook (start here)
 ├── correlation_pocket_tool.py        # reusable tool: correlations for ANY CSV
 └── data/
-    └── insurance-premium-prediction/
         └── insurance.csv             # created automatically on first run
 ```
 
