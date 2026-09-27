@@ -32,8 +32,8 @@ The dataset downloads automatically the first time you run `01_simple_linear.py`
 ### 1. Download the project
 
 ```bash
-git clone <https://github.com/ZiyanChen1/Linear-Regression-Concepts.git>
-cd <Rhttps://github.com/ZiyanChen1/Linear-Regression-Concepts.git>
+git clone https://github.com/ZiyanChen1/Linear-Regression-Concepts.git
+cd Linear-Regression-Concepts
 ```
 
 (Or on GitHub: **Code → Download ZIP**, unzip, then `cd` into the folder.)
