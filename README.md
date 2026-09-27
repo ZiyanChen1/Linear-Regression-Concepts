@@ -101,17 +101,4 @@ Just activate the environment again (step 3). Leave it with `deactivate`.
 
 **Strength labels** (same as `01_simple_linear.py`): |r| < 0.10 very weak · < 0.30 weak · < 0.50 moderate · < 0.70 strong · ≥ 0.70 very strong
 
----
 
-## Troubleshooting
-
-| Problem | Fix |
-|---|---|
-| `python` / `py` not recognized | Reinstall Python with **"Add to PATH"** checked, then open a **new** terminal. |
-| `running scripts is disabled` (Windows) | See the note in step 3. |
-| `ModuleNotFoundError` | `.venv` isn't active (no `(.venv)` in the prompt), or the notebook kernel isn't `.venv`. |
-| `.venv` not in **Select Kernel** | `Ctrl/Cmd+Shift+P` → **Python: Select Interpreter** → **Enter interpreter path** → `.venv\Scripts\python.exe` (Windows) or `.venv/bin/python` (Mac). Reload VS Code. |
-| Dataset download fails | Check your internet connection, then run `python 01_simple_linear.py` once to download it into `data/`. |
-| Files disappear from `data/insurance-premium-prediction/` | `01_simple_linear.py` deletes and re-copies that folder on every run. Don't store your own files there. |
-
----
